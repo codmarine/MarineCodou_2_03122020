@@ -143,7 +143,6 @@ input:focus {
     margin: 1rem;
 }
 
-
 .filter_icon {
     display: inline-block;
     background-color: #DEEBFF;
@@ -189,7 +188,70 @@ input:focus {
     font-size: 0.8em;
     margin-left: 1rem;
 }
+/*-------------------------------------------------------------
+# Section 2 & 3: Hébergements
+--------------------------------------------------------------*/
+.section2-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*-------------------------------------------------------------
+# Section 2
+--------------------------------------------------------------*/
+.section2 {
+    background-color: #F2F2F2;
+    width: 60%;
+}
 
+.container_element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.element-prev--heb {
+    width: 30%;
+}
+
+.element-prev_img {
+    width: 100%;
+}
+
+.element-prev_text {
+    background-color: #ffffff;
+}
+
+.element-prev_text h2, .element-prev_text p {
+    font-size: 0.7em;
+}
+.element-prev_title {
+    font-weight: 900;
+}
+
+.element-prev_descr {
+    font-weight: 400;
+}
+
+.element-prev_text i {
+    font-size: 0.6em;
+}
+
+.element-icon--full {
+    color: #0065FC;
+}
+
+.element-icon--light {
+    color: #F2F2F2;
+}
+
+/*-------------------------------------------------------------
+# Section 3
+--------------------------------------------------------------*/
+.section3 {
+    background-color: #F2F2F2;
+    width: 30%;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
