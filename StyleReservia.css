@@ -47,13 +47,18 @@ a {
   }
 
 /*-------------------------------------------------------------
-# Section 1
+# Section global
 --------------------------------------------------------------*/
 
 .section_title {
     font-weight: 1500;
     font-size: 1em;
 }
+
+/*-------------------------------------------------------------
+# Section 1
+--------------------------------------------------------------*/
+
 .section_subtitle {
     font-weight: 400;
     font-size: 0.8em;
@@ -80,11 +85,16 @@ a {
 }
 
 .search_input {
-    color: black;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
     font-weight: 900;
     font-size: 0.9em;
     height: 30px;
     border: 1px solid #F2F2F2;
+}
+
+input:focus {
+    outline: none;
 }
 
 .search_btn {
@@ -98,6 +108,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 /*--------------------------------------------------------------
 # Filters
