@@ -1,5 +1,8 @@
 body {
     font-family: "Raleway", Arial, sans-serif;
+}
+
+header, section {
     margin: 0 3em;
 }
 
@@ -51,7 +54,7 @@ a {
 --------------------------------------------------------------*/
 
 .section_title {
-    font-weight: 1500;
+    font-weight: 900;
     font-size: 1em;
 }
 
@@ -91,6 +94,7 @@ a {
     font-size: 0.9em;
     height: 30px;
     border: 1px solid #F2F2F2;
+    padding-left: 1em;
 }
 
 input:focus {
@@ -184,4 +188,34 @@ input:focus {
 .info_text {
     font-size: 0.8em;
     margin-left: 1rem;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 3rem;
+
+}
+
+.footer-col {
+    font-size: 0.8em;
+    color: #000000;
+    width: 33%;
+}
+
+.footer-col_title {
+    font-weight: 900;
+}
+.footer-col_link {
+    font-weight: 400;
+    line-height: 2;
 }
