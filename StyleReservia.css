@@ -37,9 +37,10 @@ header {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
-.menu a:hover, .menu .active > a,.menu .subscription {
+.menu a:hover, .menu .active > a,.menu .subscription a {
     color: #0065FC;
     font-weight: 900;
 }
@@ -123,7 +124,7 @@ input:focus {
     align-items: center;
 }
 .filter_title {
-    font-size: 0.9;
+    font-size: 0.9em;
     font-weight: 900;
 }
 
@@ -149,7 +150,6 @@ input:focus {
     border-radius: 50%;
     width: 43px;
     height: 43px;
-    margin: 0;
     position: absolute;
     font-size: 20px;
     color: #0065FC;
@@ -170,7 +170,9 @@ input:focus {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 1rem 0;
 }
+    
 
 .info_icon {
     border: 1px solid #F2F2F2;
@@ -195,6 +197,7 @@ input:focus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0;
 }
 /*-------------------------------------------------------------
 # Section 2
@@ -202,28 +205,52 @@ input:focus {
 .section2 {
     background-color: #F2F2F2;
     width: 60%;
+    border-radius: 1.5rem;
+    padding: 20px;
+}
+
+.container_element, .section2 .section_title, .section_link {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .container_element {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .element-prev--heb {
     width: 30%;
+    height: 140x;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
-.element-prev_img {
+.element-prev--heb .element-prev_img {
+    background-size: cover;
+    background-position: center;
     width: 100%;
+    height: 84px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 .element-prev_text {
-    background-color: #ffffff;
+    color: #000000;
+    padding-left: 12px;
 }
 
-.element-prev_text h2, .element-prev_text p {
+.element-prev_text h3, .element-prev_text p {
     font-size: 0.7em;
+    margin: 6px 0;
 }
 .element-prev_title {
     font-weight: 900;
@@ -235,6 +262,7 @@ input:focus {
 
 .element-prev_text i {
     font-size: 0.6em;
+    margin: 1px 1px;
 }
 
 .element-icon--full {
@@ -245,13 +273,44 @@ input:focus {
     color: #F2F2F2;
 }
 
+.section_link {
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
 /*-------------------------------------------------------------
 # Section 3
 --------------------------------------------------------------*/
 .section3 {
     background-color: #F2F2F2;
     width: 30%;
+    border-radius: 1.5rem;
+    padding: 20px;
 }
+
+.element-prev--pop {
+    width: 100%;
+    height: 140x;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.element-prev--pop .element-prev_img {
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
