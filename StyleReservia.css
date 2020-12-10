@@ -303,9 +303,11 @@ input:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .section3_title {
+    width: 302px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -340,6 +342,11 @@ input:focus {
     border-bottom-left-radius: 14.6px;
 }
 
+.element-prev--pop .element-prev_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /*-------------------------------------------------------------
 # Section 4
 --------------------------------------------------------------*/
@@ -375,6 +382,10 @@ input:focus {
     background-size: cover;
     background-position: center;
 
+}
+
+.element-prev--act .element-prev_text {
+    line-height: 50px;
 }
 
 .container_element_act_col {
