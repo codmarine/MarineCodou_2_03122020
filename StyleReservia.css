@@ -305,6 +305,18 @@ input:focus {
     justify-content: space-between;
 }
 
+.section3_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pop_icon {
+    color: #000000;
+    font-size: 20px;
+}
+
 .element-prev--pop {
     width: 302px;
     height: 126px;
@@ -339,55 +351,62 @@ input:focus {
 
 .container_element_act {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    height: 370px;
-    margin-top: 20px;
+    height: 396px;
+    margin-top: 25px;
 }
 
 .element-prev--act {
-    width: 20%;
     background-color: #ffffff;
-    border-radius: 10%;
+    border-radius: 20px;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    margin-right: 20px;
-    margin-top: auto;
-
 }
 
 .element-prev--act .element-prev_img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     background-size: cover;
     background-position: center;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+
+}
+
+.container_element_act_col {
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .element-prev--act1, .element-prev--act4 {
-    height: 370px;
+    height: 396px;
+    width: 21%;
 }
 .element-prev--act5, .element-prev--act6 {
-    height: 150px;
+    height: 173px;
 }
 
 .element-prev--act2 {
-    height: 200px;
+    height: 210px;
 }
 
 .element-prev--act3 {
-    height: 100px;
+    height: 147px;
 }
 
 .element-prev--act1 .element-prev_img, .element-prev--act4 .element-prev_img{
-    height: 330px;
+    height: 346px;
 }
 
 .element-prev--act5 .element-prev_img, .element-prev--act6 .element-prev_img {
-    height: 110px;
+    height: 123px;
 }
 
 .element-prev--act2 .element-prev_img {
@@ -395,7 +414,7 @@ input:focus {
 }
 
 .element-prev--act3 .element-prev_img {
-    height: 60px;
+    height: 98px;
 }
 /*--------------------------------------------------------------
 # Footer
