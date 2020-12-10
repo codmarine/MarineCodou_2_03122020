@@ -162,10 +162,12 @@ input:focus {
 .filter_icon {
     background-color: #DEEBFF;
     border-radius: 50%;
-    width: 44px;
+    width: 46px;
     font-size: 18px;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: -2px;
+    margin-left: -2px;
     color: #0065FC;
     text-align: center;
     position: absolute;
@@ -324,11 +326,6 @@ input:focus {
     height: 100%;
     border-top-left-radius: 14.6px;
     border-bottom-left-radius: 14.6px;
-}
-
-.element-prev--pop > .element-prev_text > .element-rating {
-    position: relative;
-    bottom: 100px;
 }
 
 /*-------------------------------------------------------------
