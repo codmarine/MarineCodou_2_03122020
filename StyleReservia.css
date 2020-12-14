@@ -179,6 +179,10 @@ input:focus {
     padding: 13px;
     margin-left: -10px;
     }
+
+    .search_input {
+        width: 170px;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -487,6 +491,11 @@ input:focus {
     }
 }
 
+@media screen and (max-width: 390px) {
+    .element-prev--pop {
+        width: 100%;
+    }
+}
 
 /*-------------------------------------------------------------
 # Section 4
