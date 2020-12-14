@@ -18,7 +18,6 @@ header, section {
 
 ul li {
     list-style: none;
-    padding-inline-start: 0;
 }
 
 
@@ -64,11 +63,6 @@ nav a:hover, nav .active, .subscription a {
 
 nav a:hover, nav .active {
     border-top: 2px solid #0065FC;
-  }
-
-  .subscription {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
   }
 
   @media screen and (max-width: 621px) {
