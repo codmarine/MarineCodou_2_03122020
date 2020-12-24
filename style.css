@@ -1,8 +1,15 @@
-body {
+body{
     font-family: "Raleway", Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-header, section {
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+header, section, footer {
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 1rem;
@@ -383,7 +390,6 @@ input:focus {
         width: 336px;
         height: 200px;
         border: 5px solid #ffffff;
-        margin: 10px 0;
     }
     
     .element-prev--heb .element-prev_img {
@@ -391,7 +397,7 @@ input:focus {
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1100px) {
     .container_element {
         justify-content: space-around;
     }
@@ -477,7 +483,6 @@ input:focus {
         width: 336px;
         height: 144px;
         border: 5px solid #ffffff;
-        margin: 10px 0;
     }
 
     .element-prev--pop .element-prev_img {
@@ -485,7 +490,7 @@ input:focus {
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: px) {
     .container_element_pop {
         justify-content: space-around;
     }
@@ -501,7 +506,7 @@ input:focus {
 # Section 4
 --------------------------------------------------------------*/
 
-.section4 {
+#section4 {
     margin-bottom: 60px;
     padding-top: 20px;
 }
